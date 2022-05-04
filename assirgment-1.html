@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-1</title>
+    <link href="Style.css" rel="stylesheet">
+</head>
+<body id="body">
+    <h1>Assignment-1(25th march)</h1>
+    <!-- 1. Put an alert in the script file, like this: alert('Hello world');`
+    Use a script tag to link the JavaScript file into the HTML file-->
+
+    <!-- Calculate the average number of weeks in a human lifetime.-->
+
+<div id="avgdays">
+    <h2><i>Average number of weeks in a human lifetime.</i></h2><br>
+    daysInYear = 365.25  ,
+     daysInWeek = 7  ,
+     yearsInLifetime = 80 
+     <h4>Number of average weeks in human lifetime = <span><h3 style="font-size: 1.2rem;" id="avgans"></h3></span></h4>
+</div>
+
+<!--String Concatenation-->
+<div id="concat" style="background-color: cadetblue;text-align: center;">
+    <h2><i>String Concatenation</i></h2><br>
+    <h3>change the output to "he110 w0r1d" : <h2 id="strans"></h2></h3><hr>
+    <h2>Reverse string: <h3 id="revstr"></h3></h2><br></div>
+<br>
+
+    <!--Addition of 2 numbers using prompt method - debug the given code-->
+<div id="debug" style="background-color: darkkhaki; text-align: center;padding: 10px;">
+    <h2><i>Addition of 2 numbers using prompt method - debug the given code</i></h2>
+    <h3>Problem : prompt accepts string type data , so after Concatenation it returns string output<br> Solution: Typecast the input numbers using Number method</h3>
+<mark><h3 id="prompt-ans" style="font-size: 1.3rem; border: 1px black solid;"></h3></mark>
+</div><br>
+
+<!--Read in two numbers and display the larger-->
+<div id="larger-num" style="background-color: rgb(140, 241, 115); text-align: center;padding: 10px;">
+    <h2><i>Read in two numbers and display the larger</i></h2>
+    First number : <input type="number" style="margin-top: 10px;" id="num1"> <br>
+    Second number : <input type="number" style="margin-top: 10px;" id="num2"><br><hr>
+    <button onclick="Displaynumber()" style="margin-top: 10px; padding: 10px;" id="larger-btn">Display larger number</button>
+    <p id="ques"></p>
+    <p><h2 id="lg-ans"></h2></p> 
+</div>
+<div id="asc" style="background-color: dimgrey;">
+    <h2><i>Read in two numbers and display them in ascending order.</i></h2>
+    First number : <input type="number" style="margin-top: 10px;" id="asc1"> <br>
+    Second number : <input type="number" style="margin-top: 10px;" id="asc2"><br><hr>
+    <button style="margin-top: 10px; padding: 10px;" id="asc-btn" onclick="ascfunc()">Ascending order</button>
+    
+    <h3>Ascending order:</h3>
+    <h2 id="asc-ans"></h2>
+    </div>
+
+
+
+<!--Use a loop to display the numbers in the range 0…20 that are multiples of 3.-->
+<div id="loop" style="background-color: darksalmon;">
+<h2><i>Use a loop to display the numbers in the range 0…20 that are multiples of 3.</i></h2>
+<div id="loop-ans" style="padding: 5px;"></div>
+</div>
+
+<!--10 alerts with the values 0…9-->
+
+<!--Read in two numbers and display them in ascending order.-->
+
+
+    <script src="main.js"></script>
+</body>
+</html>
